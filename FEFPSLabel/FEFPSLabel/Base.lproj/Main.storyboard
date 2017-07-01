@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="-1340" y="-61"/>
         </scene>
-        <!--View Controller-->
+        <!--FlyElephant-->
         <scene sceneID="JWX-Nr-z1Y">
             <objects>
                 <viewController id="i69-aj-LHm" customClass="ViewController" sceneMemberID="viewController">
@@ -55,7 +55,7 @@
                             <constraint firstAttribute="trailing" secondItem="3c6-my-9rD" secondAttribute="trailing" constant="50" id="UNI-Lz-mid"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="OrT-qW-rLP"/>
+                    <navigationItem key="navigationItem" title="FlyElephant" id="OrT-qW-rLP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ak5-YK-J18" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -72,8 +72,27 @@
                     <view key="view" contentMode="scaleToFill" id="dhM-XV-MF0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kPL-Jk-rrm">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="QyY-lS-jL4" id="i9p-8W-JJ2"/>
+                                    <outlet property="delegate" destination="QyY-lS-jL4" id="XiC-MX-H9y"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aGA-yl-bJC" firstAttribute="top" secondItem="kPL-Jk-rrm" secondAttribute="bottom" id="88A-di-Vxk"/>
+                            <constraint firstAttribute="trailing" secondItem="kPL-Jk-rrm" secondAttribute="trailing" id="fZQ-0G-khG"/>
+                            <constraint firstItem="kPL-Jk-rrm" firstAttribute="leading" secondItem="dhM-XV-MF0" secondAttribute="leading" id="oTI-HL-FaF"/>
+                            <constraint firstItem="kPL-Jk-rrm" firstAttribute="top" secondItem="fqb-cF-1fv" secondAttribute="bottom" id="uMH-lW-d3d"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="kPL-Jk-rrm" id="a4r-A1-4jm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFt-2P-el0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

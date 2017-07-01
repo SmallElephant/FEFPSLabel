@@ -17,6 +17,7 @@
 		C5936D831F07C04D00241F48 /* FEFPSLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5936D821F07C04D00241F48 /* FEFPSLabelUITests.m */; };
 		C5936D931F07C6A000241F48 /* FEFPSIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C5936D921F07C6A000241F48 /* FEFPSIndicator.m */; };
 		C5936D961F07D20D00241F48 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5936D951F07D20D00241F48 /* DetailViewController.m */; };
+		C5936D981F07DA3500241F48 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5936D971F07DA3500241F48 /* test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C5936D921F07C6A000241F48 /* FEFPSIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEFPSIndicator.m; sourceTree = "<group>"; };
 		C5936D941F07D20D00241F48 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C5936D951F07D20D00241F48 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C5936D971F07DA3500241F48 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				C5936D5D1F07C04D00241F48 /* Supporting Files */,
 				C5936D941F07D20D00241F48 /* DetailViewController.h */,
 				C5936D951F07D20D00241F48 /* DetailViewController.m */,
+				C5936D971F07DA3500241F48 /* test.jpg */,
 			);
 			path = FEFPSLabel;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				C5936D6D1F07C04D00241F48 /* LaunchScreen.storyboard in Resources */,
 				C5936D6A1F07C04D00241F48 /* Assets.xcassets in Resources */,
 				C5936D681F07C04D00241F48 /* Main.storyboard in Resources */,
+				C5936D981F07DA3500241F48 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

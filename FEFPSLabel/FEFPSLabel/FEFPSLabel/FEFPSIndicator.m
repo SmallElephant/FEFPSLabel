@@ -131,8 +131,8 @@
     count = 0;
     lastTime = link.timestamp;
  
-    NSLog(@"当前屏幕的刷新率:%f----round:%f",fps,round(fps));
     self.fpsLabel.text = [NSString stringWithFormat:@"%d fps",(int)(round(fps))];
+
 }
 
 - (void)panGesture:(UIPanGestureRecognizer *)gesture {
